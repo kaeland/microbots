@@ -1,0 +1,6 @@
+<h1><%= @micro_bot.device_name %></h1>
+
+<p>Current Function: <%= @micro_bot.function_name ? @micro_bot.function_name : "There are currently no functions" %></p>
+<p>Current Function: <%= @micro_bot.function_message ? @micro_bot.function_message : "We've not yet passed a message" %></p>
+
+<%= link_to "Control Bot", edit_micro_bot_path(@micro_bot) %>

@@ -1,0 +1,8 @@
+<h1>Microbots</h1>
+
+<% @micro_bots.each do |bot| %>
+  <div class="microbot-card">
+    <h2><%= bot.device_name %></h2>
+    <%= link_to "Bot Page", micro_bot_path(bot) %>
+  </div>
+<% end %>

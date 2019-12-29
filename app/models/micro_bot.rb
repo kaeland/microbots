@@ -1,0 +1,2 @@
+class MicroBot < ApplicationRecord
+end
